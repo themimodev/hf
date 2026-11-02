@@ -189,3 +189,29 @@ textarea {
     width: 70%;
     height: 70px;
 }
+
+
+@media screen and (max-width: 992px) {
+    .grid-container {
+        grid-template-columns: 1fr;
+    }
+    
+    .harom-oszlop {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .grid-container {
+        grid-template-columns: 1fr;
+    }
+    
+    .harom-oszlop {
+        grid-template-columns: 1fr;
+    }
+    
+    .kapcsolat-form input, 
+    .kapcsolat-form textarea {
+        width: 100%;
+    }
+}
